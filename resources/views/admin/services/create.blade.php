@@ -33,7 +33,7 @@
                   <div class="col-lg-12">
                      <div class="form-group">
                         <label>الصورة</label>
-                        <input class="form-control" type="file" name="image[]" accept=".png, .jpg, .jpeg, .svg" required="" multiple>
+                        <input class="form-control" type="file" name="image" accept=".png, .jpg, .jpeg, .svg" required="" multiple>
                      </div>
                   </div>
                   <div class="col-lg-12">
