@@ -17,6 +17,12 @@
                         </div>
                         <div class="col-lg-12">
                             <div class="form-group">
+                                <label>address</label>
+                                <textarea class="form-control" type="text" name="address" placeholder="address" rows="4">{{ old('address', $data->address) }}</textarea>
+                            </div>
+                        </div>
+                        <div class="col-lg-12">
+                            <div class="form-group">
                                 <label>twitter</label>
                                 <input class="form-control" type="url" name="twitter" placeholder="twitter" value="{{ old('twitter', $data->twitter) }}">
                             </div>
