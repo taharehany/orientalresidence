@@ -4,7 +4,7 @@
 
 @section('content')
 
-{{-- breadcrumb --}}
+<!-- breadcrumb -->
 <div class="breadcrumb-custom">
    <div class="container">
       <div class="title-page">
@@ -18,9 +18,9 @@
       </div>
    </div>
 </div>
-{{-- breadcrumb --}}
+<!-- breadcrumb -->
 
-{{-- contact page --}}
+<!-- contact page -->
 <section class="contact" id="contact" dir="rtl">
    <div class="container">
       <div class="row align-items-center">
@@ -71,13 +71,13 @@
                   <div class="box">
                      <p><i class="icofont-ui-call"></i> <a href="tel:{{ settings()->mobile3 }}">{{ settings()->mobile3 }}</a> </p>
                   </div>
-                  {{-- <div class="box">
+                  <!-- <div class="box">
                      <p><i class="icofont-ui-call"></i> <a href="tel:0138330307">0138330307</a> </p>
-                  </div> --}}
-                  {{-- <div class="box">
+                  </div> -->
+                  <!-- <div class="box">
                      <p><i class="icofont-brand-whatsapp"></i> <a href="https://wa.me/966551616801" target="_blank">+966551616801</a> | <a href="https://wa.me/966551930300" target="_blank">+966551930300</a></p>
 
-                  </div> --}}
+                  </div> -->
                   <div class="box">
                      <p dir="rtl"><i class="icofont-location-pin"></i>{{ settings()->address }}</p>
                   </div>
@@ -100,6 +100,6 @@
 
 <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d256826.23199994833!2d50.192541346332796!3d26.355747469817917!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x884acb75ef3b5501!2z2KfZhNiv2YXYp9mFINij2YjYsdmK2YbYqtin2YQg2YTZhNij2KzZhtit2Kkg2KfZhNmB2YbYr9mC2YrYqQ!5e0!3m2!1sar!2seg!4v1610190273949!5m2!1sar!2seg" width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0">
 </iframe>
-{{-- contact page --}}
+<!-- contact page -->
 
 @endsection
