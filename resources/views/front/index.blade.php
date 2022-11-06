@@ -77,8 +77,8 @@
                </div>
                <div class="col-md-6">
                   <div class="desc text-right">
-                     <h2>{{ $hero->title }}</h2>
-                     <div>{{ $hero->description }}</div>
+                     <h2>{{ $about->title }}</h2>
+                     <div>{{ $about->description }}</div>
                      <div class="buttons">
                         <a href="{{ route('about') }}" class="btn btn-warning">المزيد عنا</a>
                      </div>
