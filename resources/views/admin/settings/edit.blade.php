@@ -59,8 +59,8 @@
                         </div>
                         <div class="col-lg-12">
                             <div class="form-group">
-                                <label>mobile</label>
-                                <input class="form-control" type="text" name="mobile" placeholder="mobile" value="{{ old('mobile', $data->mobile) }}">
+                                <label>mobile3</label>
+                                <input class="form-control" type="text" name="mobile3" placeholder="mobile3" value="{{ old('mobile3', $data->mobile3) }}">
                             </div>
                         </div>
                         <div class="col-lg-12">
