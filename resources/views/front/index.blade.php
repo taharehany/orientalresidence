@@ -49,8 +49,8 @@
                   <p>{{ $hero->description }}</p>
                </div>
                <div class="buttons-side">
-                  <a class="btn btn-warning" href="">تصفح الخدمات</a>
-                  <a class="btn btn-outline-warning" href="">تواصل معنا</a>
+                  <a class="btn btn-warning" href="{ route('services') }}">تصفح الفنادق</a>
+                  <a class="btn btn-outline-warning" href="{ route('contact') }}">تواصل معنا</a>
                </div>
             </div>
          </div>
