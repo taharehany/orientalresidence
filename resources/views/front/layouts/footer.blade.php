@@ -30,10 +30,10 @@
             <div class="footer-widget col-lg-4 col-md-6 col-xs-12 wow fadeIn" data-wow-delay=".5s">
                <h3 class="small-title">معلومات التواصل</h3>
                <div class="contact">
-                     <p> <i class="fa fa-map"></i>{{ settings()->address }}</p>
-                     <p> <i class="fa fa-phone"></i><a href="tel:{{ settings()->mobile1 }}" data-ur1313m3t="true">{{ settings()->mobile1 }}</a></p>
-                     <p> <i class="fa fa-envelope"></i><a href="mailto:{{ settings()->email1 }}" data-ur1313m3t="true">{{ settings()->email1 }}</a></p>
-                  </div>
+                  <p> <i class="fa fa-map"></i>{{ settings()->address }}</p>
+                  <p> <i class="fa fa-phone"></i><a href="tel:{{ settings()->mobile1 }}" data-ur1313m3t="true">{{ settings()->mobile1 }}</a></p>
+                  <p> <i class="fa fa-envelope"></i><a href="mailto:{{ settings()->email1 }}" data-ur1313m3t="true">{{ settings()->email1 }}</a></p>
+               </div>
             </div>
          </div>
       </div>
@@ -47,6 +47,31 @@
       </div>
    </div>
 </footer>
+
+<!-- GetButton.io widget-->
+<script type="text/javascript">
+   (function() {
+      var options = {
+         whatsapp: "{{ settings()->whatsapp }}", // WhatsApp number
+         call_to_action: "whatsapp", // Call to action
+         button_color: "#FF6550", // Color of button
+         position: "left", // Position may be 'right' or 'left'
+      };
+      var proto = document.location.protocol,
+         host = "getbutton.io",
+         url = proto + "//static." + host;
+      var s = document.createElement('script');
+      s.type = 'text/javascript';
+      s.async = true;
+      s.src = url + '/widget-send-button/js/init.js';
+      s.onload = function() {
+         WhWidgetSendButton.init(host, proto, options);
+      };
+      var x = document.getElementsByTagName('script')[0];
+      x.parentNode.insertBefore(s, x);
+   })();
+</script>
+<!-- /GetButton.io widget-->
 
 <!--scripts-->
 <script type='text/javascript' src="{{ asset('front/js/jquery.min.js') }}"></script>
