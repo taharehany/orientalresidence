@@ -39,17 +39,6 @@ class ServicesController extends Controller
    public function store(Request $request)
    {
       $data = $request->all();
-   //    if ($request->hasFile('images')) {
-   //       $images = $request->file('images');
-   //       foreach ($images as $image) {
-   //           $image = upload_image($image, 'images_');
-   //           $services_images = new ProductImage();
-   //           $services_images->image = $image;
-   //           $services_images->product_id = $service->id;
-   //           $services_images->save();
-   //       }
-   //   }
-
       if ($request->hasFile('image')) {
          $data['image'] = upload_file($request->file('image'), 'image');
       } else {
