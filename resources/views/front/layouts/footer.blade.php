@@ -31,8 +31,8 @@
                <h3 class="small-title">معلومات التواصل</h3>
                <div class="contact">
                      <p> <i class="fa fa-map"></i>المملكة العربية السعودية، الرياض</p>
-                     <p> <i class="fa fa-phone"></i><a href="tel:009661234567890" data-ur1313m3t="true">009661234567890</a></p>
-                     <p> <i class="fa fa-envelope"></i><a href="mailto:support@example.com" data-ur1313m3t="true">support@example.com</a></p>
+                     <p> <i class="fa fa-phone"></i><a href="tel:{{ settings()->mobile1 }}" data-ur1313m3t="true">{{ settings()->mobile1 }}</a></p>
+                     <p> <i class="fa fa-envelope"></i><a href="mailto:{{ settings()->email1 }}" data-ur1313m3t="true">{{ settings()->email1 }}</a></p>
                   </div>
             </div>
          </div>
