@@ -9,10 +9,10 @@
                <p>يتميز أورينتال رزيدنس بتشكيله متنوعه من الغرف الفندقية والاجنحه المصممه على أعلى درجه من الدقه فى
                   التصميم لتناسب كافة احتياجات النزلاء وبمساحات مختلفة تشعرهم بالراحة والرحابه</p>
                <div class="social-footer">
-                  <a href="https://www.facebook.com/Oriental-Residence-106018914634156"><i class="fa fa-facebook icon-round"></i></a>
-                  <a href="https://twitter.com/OrientalReside1"><i class="fa fa-twitter icon-round"></i></a>
-                  <a href="https://www.snapchat.com/add/orientalresiden"><i class="fa fa-snapchat icon-round"></i></a>
-                  <a href="https://www.instagram.com/oriental.residence/"><i class="fa fa-instagram icon-round"></i></a>
+                  <a href="{{ settings()->facebook }}"><i class="fa fa-facebook icon-round"></i></a>
+                  <a href="{{ settings()->twitter }}"><i class="fa fa-twitter icon-round"></i></a>
+                  <a href="{{ settings()->snapchat }}"><i class="fa fa-snapchat icon-round"></i></a>
+                  <a href="{{ settings()->instagram }}"><i class="fa fa-instagram icon-round"></i></a>
                </div>
             </div>
 
@@ -30,7 +30,7 @@
             <div class="footer-widget col-lg-4 col-md-6 col-xs-12 wow fadeIn" data-wow-delay=".5s">
                <h3 class="small-title">معلومات التواصل</h3>
                <div class="contact">
-                     <p> <i class="fa fa-map"></i>المملكة العربية السعودية، الرياض</p>
+                     <p> <i class="fa fa-map"></i>{{ settings()->address }}</p>
                      <p> <i class="fa fa-phone"></i><a href="tel:{{ settings()->mobile1 }}" data-ur1313m3t="true">{{ settings()->mobile1 }}</a></p>
                      <p> <i class="fa fa-envelope"></i><a href="mailto:{{ settings()->email1 }}" data-ur1313m3t="true">{{ settings()->email1 }}</a></p>
                   </div>
