@@ -47,31 +47,24 @@
       </div>
    </div>
 </footer>
-
-<!-- GetButton.io widget-->
+<!-- GetButton.io widget -->
 <script type="text/javascript">
-   (function() {
-      var options = {
-         whatsapp: "{{ settings()->whatsapp }}", // WhatsApp number
-         call_to_action: "whatsapp", // Call to action
-         button_color: "#FF6550", // Color of button
-         position: "left", // Position may be 'right' or 'left'
-      };
-      var proto = document.location.protocol,
-         host = "getbutton.io",
-         url = proto + "//static." + host;
-      var s = document.createElement('script');
-      s.type = 'text/javascript';
-      s.async = true;
-      s.src = url + '/widget-send-button/js/init.js';
-      s.onload = function() {
-         WhWidgetSendButton.init(host, proto, options);
-      };
-      var x = document.getElementsByTagName('script')[0];
-      x.parentNode.insertBefore(s, x);
-   })();
+    (function () {
+        var options = {
+            instagram: "oriental.residence", // Instagram username
+            whatsapp: "{{ settings()->whatsapp }}", // WhatsApp number
+            call_to_action: "راسلنا", // Call to action
+            button_color: "#E74339", // Color of button
+            position: "left", // Position may be 'right' or 'left'
+            order: "instagram,whatsapp", // Order of buttons
+        };
+        var proto = 'https:', host = "getbutton.io", url = proto + '//static.' + host;
+        var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = url + '/widget-send-button/js/init.js';
+        s.onload = function () { WhWidgetSendButton.init(host, proto, options); };
+        var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);
+    })();
 </script>
-<!-- /GetButton.io widget-->
+<!-- /GetButton.io widget -->
 
 <!--scripts-->
 <script type='text/javascript' src="{{ asset('front/js/jquery.min.js') }}"></script>
