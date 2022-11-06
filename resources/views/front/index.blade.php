@@ -188,25 +188,31 @@
                <div class="info-content">
                   <h2>معلومات التواصل:</h2>
                   <div class="box">
-                     <p><i class="icofont-ui-call"></i> <a href="tel:+966138290143">+966138290143</a> </p>
+                     <p><i class="icofont-ui-call"></i> <a href="tel:{{ settings()->mobile1 }}">{{ settings()->mobile1 }}</a> </p>
                   </div>
                   <div class="box">
-                     <p><i class="icofont-ui-call"></i> <a href="tel:+966551930300">+966551930300</a> </p>
+                     <p><i class="icofont-ui-call"></i> <a href="tel:{{ settings()->mobile2 }}">{{ settings()->mobile2 }}</a> </p>
                   </div>
                   <div class="box">
-                     <p><i class="icofont-ui-call"></i> <a href="tel:+966551616801">+966551616801</a> </p>
+                     <p><i class="icofont-ui-call"></i> <a href="tel:{{ settings()->mobile3 }}">{{ settings()->mobile3 }}</a> </p>
                   </div>
-                  <div class="box">
+                  <!-- <div class="box">
+                     <p><i class="icofont-ui-call"></i> <a href="tel:0138330307">0138330307</a> </p>
+                  </div> -->
+                  <!-- <div class="box">
                      <p><i class="icofont-brand-whatsapp"></i> <a href="https://wa.me/966551616801" target="_blank">+966551616801</a> | <a href="https://wa.me/966551930300" target="_blank">+966551930300</a></p>
-
+                  </div> -->
+                  <div class="box">
+                     <p dir="rtl"><i class="icofont-location-pin"></i>{{ settings()->address }}</p>
                   </div>
                   <div class="box">
-                     <p dir="rtl"><i class="icofont-location-pin"></i> المملكة العربية السعودية الدمام-حي
-                        الفاخرية- شارع
-                        عمر بن الخطاب</p>
-                  </div>
-                  <div class="box">
-                     <p><i class="icofont-email"></i><a href="mailto:oriental.residence.dm@gmail.com">oriental.residence.dm@gmail.com</a>
+                     <p>
+                        <i class="icofont-email"></i>
+                        <a href="mailto:{{ settings()->email1 }}m">{{ settings()->email1 }}</a>
+                     </p>
+                     <p>
+                        <i class="icofont-email"></i>
+                        <a href="mailto:{{ settings()->email2 }}m">{{ settings()->email2 }}</a>
                      </p>
                   </div>
                </div>

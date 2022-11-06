@@ -76,7 +76,6 @@
                   </div> -->
                   <!-- <div class="box">
                      <p><i class="icofont-brand-whatsapp"></i> <a href="https://wa.me/966551616801" target="_blank">+966551616801</a> | <a href="https://wa.me/966551930300" target="_blank">+966551930300</a></p>
-
                   </div> -->
                   <div class="box">
                      <p dir="rtl"><i class="icofont-location-pin"></i>{{ settings()->address }}</p>
