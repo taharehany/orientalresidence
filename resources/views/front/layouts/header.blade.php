@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ar" dir="rtl">
 
 <head>
    <meta charset="UTF-8">
@@ -34,7 +34,7 @@
       <header dir="ltr">
          <nav class="navbar navbar-inverse navbar-expand-lg header-nav fixed-top light-header">
             <div class="container">
-               <a class="navbar-brand brand1" href="">
+               <a class="navbar-brand brand1" href="/">
                   <img class="light img-fluid" src="{{ asset(settings()->logo) }}" alt="alt">
                </a>
                <a class="navbar-brand brand2" href="">
@@ -52,7 +52,10 @@
                         <a class="nav-link" href="{{ route('about') }}">من نحن</a>
                      </li>
                      <li class="nav-item {{ (request()->is('services')) ? 'active' : '' }}">
-                        <a class="nav-link" href="{{ route('services') }}">الخدمات</a>
+                        <a class="nav-link" href="{{ route('services') }}">مجموعة الفنادق</a>
+                     </li>
+                     <li class="nav-item {{ (request()->is('gallery')) ? 'active' : '' }}">
+                        <a class="nav-link" href="{{ route('gallery') }}">معرض الصور</a>
                      </li>
                      <li class="nav-item {{ (request()->is('contact')) ? 'active' : '' }}">
                         <a class="nav-link" href="{{ route('contact') }}">تواصل معنا</a>

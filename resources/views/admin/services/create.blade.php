@@ -18,13 +18,22 @@
                   <div class="col-lg-12">
                      <div class="form-group">
                         <label>التفاصيل</label>
-                        <textarea class="form-control" name="description" placeholder="التفاصيل" required="" rows="5"></textarea>
+                        <textarea name="description" id="editor1" rows="10" cols="80"></textarea>
+                        <script>
+                           CKEDITOR.replace('editor1');
+                        </script>
+                     </div>
+                  </div>
+                  <div class="col-lg-12">
+                     <div class="form-group">
+                        <label>الموقع الجغرافي</label>
+                        <textarea class="form-control" name="location" rows="5"></textarea>
                      </div>
                   </div>
                   <div class="col-lg-12">
                      <div class="form-group">
                         <label>الصورة</label>
-                        <input class="form-control" type="file" name="image" accept=".png, .jpg, .jpeg, .svg" required="">
+                        <input class="form-control" type="file" name="image[]" accept=".png, .jpg, .jpeg, .svg" required="" multiple>
                      </div>
                   </div>
                   <div class="col-lg-12">

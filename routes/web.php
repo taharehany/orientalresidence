@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\Front\AboutController;
 use App\Http\Controllers\Front\ContactController;
+use App\Http\Controllers\Front\GalleryController;
 use App\Http\Controllers\Front\HomeController;
 use App\Http\Controllers\Front\ServicesController;
 use Illuminate\Support\Facades\Route;
@@ -19,7 +20,8 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', [HomeController::class, 'index'])->name('home');
 Route::get('/services', [ServicesController::class, 'index'])->name('services');
-Route::get('/services/{id}', [ServicesController::class, 'show'])->name('services.show');
+Route::get('/services/{id}', [ServicesController::class, 'show'])->name('front.services.show');
+Route::get('/gallery', [GalleryController::class, 'index'])->name('gallery');
 Route::get('/about', [AboutController::class, 'index'])->name('about');
 Route::get('/contact', [ContactController::class, 'index'])->name('contact');
 

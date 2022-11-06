@@ -15,4 +15,6 @@
    <link href="https://fonts.googleapis.com/css2?family=Tajawal&display=swap" rel="stylesheet" />
    <link rel="stylesheet" href="{{ asset('admin') }}/css/style.css" />
    <link rel="stylesheet" href="{{ asset('admin') }}/css/over-style.css" />
+   <!-- <script src="//cdn.ckeditor.com/4.20.0/full/ckeditor.js"></script> -->
+   <script src="//cdn.ckeditor.com/4.20.0/standard/ckeditor.js"></script>
 </head>

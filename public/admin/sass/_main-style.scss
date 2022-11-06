@@ -15,7 +15,7 @@ body {
     }
 }
 
-//header 
+//header
 header {
     @include transition(all ease .3s);
     position: fixed;
@@ -800,7 +800,7 @@ header {
         }
     }
 
-    //tabs 
+    //tabs
     .global-area {
         .tabs {
             background-color: #fff;
@@ -1094,16 +1094,16 @@ header {
 }
 
 .select2-results__option {
-    color: $dark_color;
+
     font-size: 16px;
 }
 
-//editor 
+//editor
 .ck-content {
     min-height: 250px;
 }
 
-//signin page 
+//signin page
 .signin-area,
 .signup-area {
     min-height: 100vh;

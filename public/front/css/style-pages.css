@@ -188,6 +188,9 @@ a:hover:not([href]):not([tabindex]) {
 
 .portfolio-img img {
   width: 100%;
+  height: 400px;
+  object-fit: cover;
+  -o-object-fit: cover;
 }
 
 .portfoli-content {
@@ -311,4 +314,60 @@ a:hover:not([href]):not([tabindex]) {
 /* Portfolio */
 #portfolio ul.portfolio {
   margin-bottom: 0 !important;
+}
+
+section.single-service {
+  background-color: #fff;
+  padding: 0 0 70px 0;
+}
+section.single-service .ser-title {
+  margin-bottom: 25px;
+}
+section.single-service .ser-title h3 {
+  font-size: 24px;
+  margin-bottom: 18px;
+  text-transform: capitalize;
+  font-weight: 600;
+}
+section.single-service .content .services-details-content .image {
+  margin-bottom: 25px;
+}
+section.single-service .content .services-details-content .image img {
+  height: auto;
+  max-height: 500px;
+  width: 100%;
+}
+section.single-service .content .services-details-content .details .text p {
+  font-size: 15px;
+  font-weight: normal;
+  line-height: 30px;
+  color: #545454;
+}
+section.single-service .content .services-details-content .details .text ul {
+  margin-bottom: 20px;
+  margin-top: 20px;
+  padding: 0;
+}
+section.single-service .content .services-details-content .details .text ul li {
+  font-size: 15px;
+  font-weight: 500;
+  color: #18364a;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+}
+section.single-service .content .services-details-content .details .text ul li::before {
+  content: "";
+  width: 7px;
+  min-width: 7px;
+  height: 7px;
+  display: inline-block;
+  -webkit-margin-end: 10px;
+          margin-inline-end: 10px;
+}
+section.single-service .content .services-details-content .details .text h3 {
+  font-size: 24px;
+  margin-bottom: 18px;
+  text-transform: capitalize;
+  font-weight: 600;
 }/*# sourceMappingURL=style-pages.css.map */

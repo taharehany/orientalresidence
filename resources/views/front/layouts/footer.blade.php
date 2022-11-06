@@ -21,19 +21,19 @@
                <ul class="menu">
                   <li><a href="/">الرئيسية</a></li>
                   <li><a href="{{ route('about') }}">من نحن</a></li>
-                  <li><a href="{{ route('about') }}">الغرف</a></li>
-                  <li><a href="{{ route('about') }}">معرض الصور</a></li>
-                  <li><a href="{{ route('about') }}">تواصل معنا</a></li>
+                  <li><a href="{{ route('services') }}">الفنادق</a></li>
+                  <li><a href="{{ route('gallery') }}">معرض الصور</a></li>
+                  <li><a href="{{ route('contact') }}">تواصل معنا</a></li>
                </ul>
             </div>
 
             <div class="footer-widget col-lg-4 col-md-6 col-xs-12 wow fadeIn" data-wow-delay=".5s">
-               <h3 class="small-title">صور مصغرة</h3>
-               <div class="plain-flicker-gallery">
-                  <a href="{{ route('about') }}">
-                     <img class="light img-fluid" src="{{ asset(settings()->logo) }}" alt="alt">
-                  </a>
-               </div>
+               <h3 class="small-title">معلومات التواصل</h3>
+               <div class="contact">
+                     <p> <i class="fa fa-map"></i>المملكة العربية السعودية، الرياض</p>
+                     <p> <i class="fa fa-phone"></i><a href="tel:009661234567890" data-ur1313m3t="true">009661234567890</a></p>
+                     <p> <i class="fa fa-envelope"></i><a href="mailto:support@example.com" data-ur1313m3t="true">support@example.com</a></p>
+                  </div>
             </div>
          </div>
       </div>

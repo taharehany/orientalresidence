@@ -24,7 +24,7 @@
                   <tr>
                      <td class="dtr-control">{{ $key + 1 }}</td>
                      <td>{{ $value->title }}</td>
-                     <td>{{ $value->description }}</td>
+                     <td>{!! $value->description !!}</td>
                      <td><img src="{{ asset($value->image) }}" style="width: 100px" alt=""></td>
                      <td>{{ $value->created_at }}</td>
                      <td>

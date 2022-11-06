@@ -25,7 +25,7 @@
 
             <li class="nav-item dropdown">
                <a class="nav-link dropdown-toggle" role="button">
-                  <i class="fas fa-home"></i>الخدمات
+                  <i class="fas fa-home"></i>الفنادق
                </a>
                <ul class="dropdown-menu">
                   <li><a class="dropdown-item" href="{{ route('services.index') }}">عرض</a></li>
