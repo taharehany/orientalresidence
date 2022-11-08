@@ -424,6 +424,7 @@ img {
 }
 .fixed-header.header-nav .navbar-brand {
   color: #000;
+  max-width: 150px;
 }
 
 .header-nav .navbar-nav > li .sub-menu li > a {
