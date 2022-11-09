@@ -345,6 +345,10 @@ img {
   font-size: 25px;
 }
 
+.navbar-brand {
+  max-width: 150px;
+}
+
 .header-nav .navbar-nav > li {
   margin-left: 12px;
   position: relative;
