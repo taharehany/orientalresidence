@@ -3,9 +3,7 @@
       <div class="footer-top text-right">
          <div class="row section">
             <div class="footer-widget col-lg-5 col-md-12 col-xs-12 wow fadeIn">
-               <h3 class="small-title">
-                  <img class="light img-fluid" style="max-width: 160px;" src="{{ asset(settings()->logo) }}" alt="alt">
-               </h3>
+               <img class="light img-fluid" style="max-width: 160px;" src="{{ asset(settings()->logo) }}" alt="alt">
                <p>يتميز أورينتال رزيدنس بتشكيله متنوعه من الغرف الفندقية والاجنحه المصممه على أعلى درجه من الدقه فى
                   التصميم لتناسب كافة احتياجات النزلاء وبمساحات مختلفة تشعرهم بالراحة والرحابه</p>
                <div class="social-footer">
